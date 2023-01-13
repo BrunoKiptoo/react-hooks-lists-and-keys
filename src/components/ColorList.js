@@ -6,13 +6,13 @@ function ColorList() {
     "firebrick",
     "rebeccapurple",
     "salmon",
-    "darkslategray",
     "hotpink",
+    "darkslategray",
   ];
   const colorItem = (colors.map(color => {
     return <li key = {nanoid()} style = {{color : color}}>{color}</li>
   }))
-
+                           //here, i have Transformed arrays of data into arrays of JSX elements
   return (
     <div>
       <h1>Top 5 CSS Colors</h1>
